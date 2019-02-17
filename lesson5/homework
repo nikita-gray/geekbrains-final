@@ -1,0 +1,60 @@
+1. Что такое <ol>, <ul> и <li>?
+ordered list нумерованный список, unordered list ненумерованный список, list item элемент списка
+2. Сверстать сложную таблицу с объединением строк и столбцов.
+<table>
+   <thead>
+   <tr>
+       <th rowspan="2" style="background-color: lightblue">Head 1</th>
+       <th colspan="2" style="background-color: lightgreen">Head 2</th>
+   </tr>
+   <tr>
+       <th style="background-color: lightcoral">Head 3</th>
+       <th style="background-color: lightgoldenrodyellow">Head 4</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr>
+       <td>Cell 1</td>
+       <td>Cell 2</td>
+       <td rowspan="3" style="background-color: lavenderblush">Cell 3</td>
+   </tr>
+   <tr>
+       <td colspan="2" style="text-align: center">Cell 4</td>
+   </tr>
+   <tr>
+       <td>Cell 5</td>
+       <td>Cell 6</td>
+   </tr>
+   </tbody>
+</table>
+
+3. В каком регистре лучше писать HTML-код?
+в нижнем
+4. Как убрать синюю рамку вокруг картинки-ссылки?
+outline: none
+5. Обязательно ли писать alt в <img>?
+Рекомендуется
+6. Что такое html-entities?
+Зарезервированные символы, их нужно писать по их названиям начиная с &. Например &lt;
+
+7. Как убрать подчеркивание для всех ссылок на странице?
+a, a: visited {
+	text-decoration: none;
+}
+8. Что делает свойство clear?
+Отменяет обтекание у элемента слева, справа или с обоих сторон
+9. Есть ячейка таблицы, в ней 3 дива, в каждом диве – по слову. На первый див применен стиль float: left; на третий – float: right. Что нужно применить на второй див, чтобы все три надписи/дивы были в одной горизонтальной строке, то есть первый имел бы выравнивание по левому краю, третий – по правому, а второй – по центру?
+display: inline-block; margin: auto;
+10. Перечислить по пять знакомых вам псевдоклассов и псевдостилей с указанием их функционала.
+visited посещенная ссылка
+hover появляется при наведении на объект мышки
+active активные ссылки
+link еще не посещенные ссылки
+checked отмеченные чекбоксы
+focus элемент с фокусом
+after для вывода контента до элемента
+before для вывода контента после элемента
+11. Нарисовать при помощи CSS3 дом на фоне неба и плывущие облака.
+https://jsfiddle.net/zwy53jqm/
+
+
